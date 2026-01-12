@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://localfeat.com/sitemap.xml
+
+# Block certain paths for privacy
+Disallow: /api/
+Disallow: /messages
+Disallow: /auth
+
+# Allow search engines to index main pages
+Allow: /
+Allow: /favicon.png
+Allow: /favicon.ico
